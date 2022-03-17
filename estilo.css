@@ -1,0 +1,129 @@
+
+.principal{
+    width: 87%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem-principal{
+    width: 100%;
+}
+.rodape{
+    width: 87%;
+    margin: auto;
+}
+header{
+    background-color: rgb(8,26,36)
+}
+.logo{
+    padding-left: 200px;
+    padding-top: 15px;
+    width: 10%;
+    padding-bottom: 10px;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.btn-nav{
+    padding-right: 65px;
+    display: flex;
+    gap: 30px;
+}
+a.btn-nav-unico:link{
+    text-decoration: none;
+    color: rgb(46, 78, 91);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+a.btn-nav-unico:visited{
+    text-decoration: none;
+    color: rgb(46, 78, 91);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+a.btn-nav-unico:hover{
+    text-decoration: none;
+    color: rgb(126, 150, 160);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.portfolio{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+}
+.portfolio h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+
+}
+.nome-modelo{
+    text-align: center;
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.estilo-modelo{
+    text-align: center;
+    color: rgba(82, 82, 82, 0.685);
+    font-size: 15px;
+    margin-top: 6px;
+}
+.texto-sobre{
+    background-color: #003D52;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+    color: #F2FFFF;
+}
+.texto-sobre h1{
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.contato{
+    text-align: center;
+    padding: 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2d4d63;
+    font-weight: 600;
+}
+.contato-texto{
+    margin-bottom: 0;
+}
+.contato-num{
+    margin-top: 0;
+}
+.rodape{
+    background-color: #012d42;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 87%;
+    margin: auto;
+    letter-spacing: 1px;
+    color:#06577c;
+    margin-top: 40px;
+}
+
